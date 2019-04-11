@@ -30,9 +30,8 @@ public class Auto extends Vehiculo {
     
     @Override
     public String toString() {
-
-        return "Marca: "+ this.marca +" " + "//" + " Modelo: "+  this.modelo + " " +  "//"  
-                + " Puertas: " +  this.puertas +  "// Precio: " + " $ "+  this.precio + "\n";
+        return "Marca: "+ this.marca +" // Modelo: "+  this.modelo + " // "
+                + "Puertas: " +  this.puertas +  " // Precio: $ " +  this.precio;
     }
 }
     

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package onready_ex.model;
 
 /**
@@ -28,8 +23,7 @@ public class Moto extends Vehiculo {
     
     @Override
     public String toString() {
-        return  "Marca: "+ this.marca +" " + "//" + " Modelo: "+  this.modelo + " " +  "//"  
-                + " Cilindrada: "+ this.cilindrada + "cc." +  "// Precio: " + " $ "+  this.precio + "\n"; 
-                
+        return  "Marca: "+ this.marca + " //" + " Modelo: "+  this.modelo + " // "
+                + "Cilindrada: "+ this.cilindrada + "c // Precio: $"+  this.precio; 
     }
 }
